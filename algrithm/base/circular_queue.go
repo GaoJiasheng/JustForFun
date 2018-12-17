@@ -135,6 +135,8 @@ func (this *MyCircularQueue) IsFull() bool {
  * param_5 := obj.IsEmpty();
  * param_6 := obj.IsFull();
  */
+
+/*
 func main() {
 	Q := Constructor(6)
 	fmt.Println(Q.EnQueue(6))
@@ -149,3 +151,4 @@ func main() {
 	fmt.Println(Q.DeQueue())
 	fmt.Println(Q.DeQueue())
 }
+*/
