@@ -1,1 +1,2 @@
-git add . && git commit -m "audo-commit" && git push origin master
+#!/usr/bin/env bash
+git add . && git commit -m "$1" && git push origin master
