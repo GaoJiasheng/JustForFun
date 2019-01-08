@@ -1,0 +1,6 @@
+# /bin/sh
+
+file=${1%'.c'}
+gcc $* ../err_function.c -o $file
+./$file
+rm -f ./$file
