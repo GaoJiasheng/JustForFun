@@ -24,7 +24,7 @@ func main(){
 			log.Print(err)
 			continue
 		}
-		handleConn(conn)
+		go handleConn(conn)
 	}
 }
 
