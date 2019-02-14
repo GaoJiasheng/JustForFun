@@ -4,8 +4,8 @@
     <list default="true" id="87cb089d-ed15-430d-a49e-69fd20ae8e0f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/machine-learning-100D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/machine-learning-100D.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/chaochao.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -106,63 +106,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="straight_line.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/straight_line.py">
+      <file leaf-file-name="exponential_smoothing.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="817">
+              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linear_regressor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/linear_regressor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ridge_regressor_influence.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/ridge_regressor_influence.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#93#149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lasso_regressor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/lasso_regressor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#93#131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linear_modal.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/linear_modal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-              <folding>
-                <element signature="e#94#128#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chaochao.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/chaochao.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -202,6 +152,7 @@
         <option value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/ridge_regressor_influence.py" />
         <option value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/lasso_regressor.py" />
         <option value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/chaochao.py" />
+        <option value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py" />
       </list>
     </option>
   </component>
@@ -215,8 +166,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="y" value="-1440" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -329,7 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,13 +303,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -380,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.linear_modal">
+  <component name="RunManager" selected="Python.exponential_smoothing">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="machine-learning-100D" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -395,6 +347,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="chaochao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machine-learning-100D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/chaochao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="exponential_smoothing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machine-learning-100D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -438,44 +428,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ridge_regressor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="machine-learning-100D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/ridge_regressor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="ridge_regressor_influence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="machine-learning-100D" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/ridge_regressor_influence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="straight_line" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machine-learning-100D" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -496,19 +448,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.ridge_regressor" />
-      <item itemvalue="Python.ridge_regressor_influence" />
       <item itemvalue="Python.lasso_regressor" />
       <item itemvalue="Python.straight_line" />
       <item itemvalue="Python.linear_modal" />
+      <item itemvalue="Python.chaochao" />
+      <item itemvalue="Python.exponential_smoothing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exponential_smoothing" />
+        <item itemvalue="Python.chaochao" />
         <item itemvalue="Python.linear_modal" />
         <item itemvalue="Python.straight_line" />
         <item itemvalue="Python.lasso_regressor" />
-        <item itemvalue="Python.ridge_regressor_influence" />
-        <item itemvalue="Python.ridge_regressor" />
       </list>
     </recent_temporary>
   </component>
@@ -535,32 +487,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="-1440" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32945737" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" internal_type="SLIDING" order="2" type="SLIDING" weight="0.3619403" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="11" visible="true" weight="0.27069134" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29348883" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12864584" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32945737" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.19722222" />
+      <window_info anchor="bottom" content_ui="combo" x="0" y="-740" width="2560" height="406" id="Run" internal_type="SLIDING" order="12" side_tool="true" type="SLIDING" weight="0.28194445" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29305556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.084375" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
-      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.4046875" />
-      <window_info anchor="right" id="Structure" order="3" side_tool="true" weight="0.14102565" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.53194445" visible="true" weight="0.31992188" />
+      <window_info anchor="right" id="Structure" order="3" sideWeight="0.46805555" side_tool="true" visible="true" weight="0.31992188" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.0964591" />
-      <window_info anchor="right" id="R Packages" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="right" id="R Graphics" order="7" weight="0.32967034" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="7" weight="0.32967034" />
+      <window_info anchor="right" id="R Packages" order="8" weight="0.32967034" />
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="5" weight="0.18148148" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -576,6 +528,62 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/straight_line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/linear_regressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/ridge_regressor_influence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/lasso_regressor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/chaochao.py" />
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/linear_modal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/straight_line.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -587,9 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#93#149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#93#131#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,50 +689,56 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/readme.md" />
-    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/ridge_regressor_influence.py">
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/chaochao.py" />
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/linear_modal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#93#149#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/chaochao.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/lasso_regressor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="504">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#93#131#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/straight_line.py">
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/ridge_regressor_influence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="227">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/linear_regressor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="120">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/linear_modal.py">
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/straight_line.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="e#94#128#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/work/gopath/src/ddcloud-online_offline_mix-collect/venv/lib/python2.7/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="4430" column="4" selection-start-line="4430" selection-start-column="4" selection-end-line="4430" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.data">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
         </state>
       </provider>
     </entry>
