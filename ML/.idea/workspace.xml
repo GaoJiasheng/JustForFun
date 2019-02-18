@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87cb089d-ed15-430d-a49e-69fd20ae8e0f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/machine-learning-100D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/machine-learning-100D.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/chaochao.py" beforeDir="false" />
-    </list>
+    <list default="true" id="87cb089d-ed15-430d-a49e-69fd20ae8e0f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,8 +104,8 @@
       <file leaf-file-name="exponential_smoothing.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+            <state relative-caret-position="1728">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -495,9 +490,9 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.19722222" />
-      <window_info anchor="bottom" content_ui="combo" x="0" y="-740" width="2560" height="406" id="Run" internal_type="SLIDING" order="12" side_tool="true" type="SLIDING" weight="0.28194445" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29305556" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.084375" />
+      <window_info anchor="bottom" content_ui="combo" x="0" y="-740" width="2560" height="406" id="Run" internal_type="SLIDING" order="12" sideWeight="0.41992188" weight="0.29444444" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5800781" side_tool="true" weight="0.29444444" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46561885" visible="true" weight="0.084375" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.53194445" visible="true" weight="0.31992188" />
@@ -737,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+        <state relative-caret-position="1728">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
