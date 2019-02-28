@@ -104,8 +104,8 @@
       <file leaf-file-name="exponential_smoothing.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="1345">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -276,6 +276,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,7 +299,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -483,28 +483,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1440" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46561885" visible="true" weight="0.084375" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32945737" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.19722222" />
-      <window_info anchor="bottom" content_ui="combo" x="0" y="-740" width="2560" height="406" id="Run" internal_type="SLIDING" order="12" sideWeight="0.41992188" weight="0.29444444" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.53125" visible="true" weight="0.31992188" />
+      <window_info anchor="right" id="Structure" order="3" sideWeight="0.46875" side_tool="true" visible="true" weight="0.31992188" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5800781" side_tool="true" weight="0.29444444" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46561885" visible="true" weight="0.084375" />
-      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32967034" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.53194445" visible="true" weight="0.31992188" />
-      <window_info anchor="right" id="Structure" order="3" sideWeight="0.46805555" side_tool="true" visible="true" weight="0.31992188" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.0964591" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
-      <window_info anchor="right" id="R Graphics" order="7" weight="0.32967034" />
+      <window_info anchor="right" id="R Packages" order="8" weight="0.32967034" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="R Packages" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" content_ui="combo" x="0" y="-740" width="2560" height="406" id="Run" internal_type="SLIDING" order="12" sideWeight="0.41992188" weight="0.29444444" />
+      <window_info anchor="right" id="R Graphics" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="5" weight="0.18148148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
@@ -523,6 +522,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -732,8 +738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simple-profound-ml-by-python/4_linear_model/exponential_smoothing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="1345">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
