@@ -3,7 +3,6 @@
 # Author : GaoJiasheng
 # 2016-07-08 08:52:07
 
-# !/usr/bin/python
 import os
 import re
 import time
