@@ -2,8 +2,6 @@
 # -*- coding:utf-8 -*-
 # Author : GaoJiasheng
 
-import string
-
 def primePalindrome(N):
     """
     :type N: int

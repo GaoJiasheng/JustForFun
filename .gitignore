@@ -22,3 +22,4 @@
 *.x86_64
 *.hex
 .idea/*
+.DS_Store
