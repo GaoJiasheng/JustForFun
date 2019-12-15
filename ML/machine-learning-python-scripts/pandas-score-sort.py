@@ -28,7 +28,7 @@ def make_data():
 
 if __name__ == "__main__":
     scores = make_data()
-    temp = scores[["语文", "英语","数学"]]
+    temp = scores[["语文", "英语", "数学"]]
     # basic calculation
     scores["平均"] = temp.mean(axis=1)
     scores["总成绩"] = temp.sum(axis=1)
@@ -36,11 +36,15 @@ if __name__ == "__main__":
     scores["最大成绩"] = temp.max(axis=1)
     scores["方差"] = temp.var(axis=1)
     scores["标准差"] = temp.std(axis=1)
+
     # sort by total score
     scores = scores.sort_values(by='总成绩', ascending=False)
+    # print by order
+    scores.index = [i+1 for i in range(len(scores))]
+
     # Extra: calculate the all guys total
     course_avg_scores = temp.mean(axis=0)
     course_avg_scores["姓名"]="各科平均分"
     scores = scores.append(course_avg_scores, ignore_index=True)
-
+    print("----------add all courses average score------------")
     print(scores)
