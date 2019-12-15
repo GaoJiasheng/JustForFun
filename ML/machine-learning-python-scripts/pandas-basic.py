@@ -19,7 +19,7 @@ def creation():
     df = pd.DataFrame(1, index=dates, columns=list('ABCD'))
     # print df
 
-    # 传递可以转化为类似Series的dict对象来创建DataFrame
+    # 传递可以转化为类似Series的diczt对象来创建DataFrame
     # 可以理解为穿了多个列进去，每个列都是一个list，可以支持多种格式的list
     df2 = pd.DataFrame({
         'A':1.,     # 如果是一个值，则默认用这个值构建一个同样value的list
@@ -113,8 +113,7 @@ def selection():
     print(df2.iloc[:, 2:5])
     print("---------dataframe print a point value: second line, second column--------")
     print(df2.iloc[1, 1])
-    # 按照值的条件来进行筛选
-    # 打印D这列>=3的所有行
+    # 按照值的条件来进行筛选 # 打印D这列>=3的所有行
     print("---------dataframe print lines whose column D >=3 --------")
     print(df2[df2.D >= 3])
     # 打印D这列在某个集合内的所有行
@@ -171,10 +170,12 @@ def merge():
     df = pd.DataFrame(np.random.randn(10, 4))
     # 按行分解和连接concat
     pieces = [df[:3], df[3:7], df[7:]] # 分解为多组
-    print(pd.concat(pieces)) #再给他接起来
+    #print(pd.concat(pieces)) #再给他接起来
     # 按列链接join
     left = pd.DataFrame({'key': ['foo', 'bar'], 'lval': [1, 2]})
     right = pd.DataFrame({'key': ['foo', 'bar'], 'rval': [4, 5]})
+    print(left)
+    print(right)
     print(pd.merge(left, right, on='key'))
     # 追加行append
     df = pd.DataFrame(np.random.randn(8, 4), columns=['A', 'B', 'C', 'D'])
@@ -201,7 +202,7 @@ def stack():
     stacked=df.stack()
     print(stacked)
     # unstack
-    print(stacked.unstack())
+    print(stacked.unstack().unstack())
 
 def pivot():
     df = pd.DataFrame({'A': ['one', 'one', 'two', 'three'] * 3,
@@ -262,8 +263,33 @@ def write_excel(path="~/Desktop/students.xlsx"):
     df1 = pd.read_excel(path, sheet_name=0, header=0, index_col=[0,1,2,])
     df1.to_excel(excel_writer=path, sheet_name='写入的sheet', encoding='utf-8')
 
+def resample_learning():
+    df = pd.read_csv("~/Desktop/apple.csv", parse_dates=["date"], index_col="date")
+    print(df[:10])
+    # parse_dates：boolean or list of ints or names or list of lists or dict, default False. 这个参数指定对CSV文件中日期序列的处理方式：
+    # 默认为False，原样加载，不解析日期时间，
+    # 可以为True，尝试解析日期索引，
+    # 可以为数字或 names 的列表，解析指定的列为时间序列，
+    # 可以为以列表为元素的列表，解析每个子列表中的字段组合为时间序列，
+    # 可以为值为列表的字典，解析每个列表中的字段组合为时间序列，并命名为字典中对应的键值；
+    # Printing the first 10 rows of dataframe
+
+    # 要求按月统计苹果股票的close价格的平均值
+    # 解决方法如下：
+    monthly_resampled_data = df.close.resample('M').mean()
+    #print(monthly_resampled_data)
+    weekly_resampled_data = df.close.resample('W').mean()
+    #print(weekly_resampled_data)
+    Quarterly_resampled_data = df.open.resample('Q').mean()
+    #print(Quarterly_resampled_data)
+    ser = pd.Series([1, 10, 3, np.nan], index=pd.to_datetime(['2000-01-01', '2000-01-03', '2000-01-06', '2000-01-08']))
+    #print(ser)
+    # 重新按照天来resample，并填充控制与Nan值，产生如下输出
+    print('----------------------------')
+    print(ser.resample('W').ffill())
+    # 上一句没看懂，为何会输出那样的结果
 
 if __name__ == "__main__":
-    visualisation()
+    merge()
 
 
