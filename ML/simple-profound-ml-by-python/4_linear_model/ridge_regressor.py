@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 #Author : GaoJiasheng
 #Date : 2018/10/5 上午9:47
+print("...")
 
 from sklearn.linear_model import Ridge
 from sklearn.datasets import load_diabetes
@@ -20,10 +21,10 @@ ridge10 = Ridge(alpha=10).fit(X_train, y_train)
 lr = LinearRegression().fit(X_train, y_train)
 
 
-print '\n代码运行结果：'
-print '岭回归训练数据集得分：%.2f' % (ridge.score(X_train, y_train))
-print '岭测试训练数据集得分：%.2f' % (ridge.score(X_test, y_test))
-print '\n'
+print('\n代码运行结果：')
+print('岭回归训练数据集得分：%.2f' % (ridge.score(X_train, y_train)))
+print('岭测试训练数据集得分：%.2f' % (ridge.score(X_test, y_test)))
+print('\n')
 
 # alpha = 10 的系数大多在0附近
 # alpha = 1 时系数普遍增大了, alpha=0.1时就更大了

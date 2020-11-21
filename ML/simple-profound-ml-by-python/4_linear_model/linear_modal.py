@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-#Author : GaoJiasheng
-#Date : 2018/10/2 下午12:28
+# Author : Gao Jiasheng
+# Date : 2018/10/2 下午12:28
 
 import matplotlib.pyplot as pyplot
 import numpy
-import sklearn
 # 导入线性回归模型
 from sklearn.linear_model import LinearRegression
 from sklearn.datasets import make_regression
@@ -16,6 +15,7 @@ X = [[1], [4], [3]]
 # 输入两个点的纵坐标
 y = [3, 5, 3]
 '''
+
 X, y = make_regression(
     n_samples=50,
     n_features=1,
@@ -36,8 +36,8 @@ pyplot.title('Straight Line')
 pyplot.show()
 
 # 直线方程
-print '\n直线方程为：'
-print 'y = %.3fx + %.3f\n' % (lr.coef_[0], lr.intercept_)
+print('\n直线方程为：')
+print('y = %.3fx + %.3f\n' % (lr.coef_[0], lr.intercept_))
 
 
 if __name__ == "__main__":
